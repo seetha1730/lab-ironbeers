@@ -65,7 +65,6 @@ a {
 img.img-thumbnail {
     width: auto;
     height: 25vh;
-
     display: flex;
     margin: 20px auto;
     border: none;

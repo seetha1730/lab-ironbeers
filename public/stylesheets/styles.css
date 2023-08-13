@@ -25,6 +25,9 @@ body{
     margin: 50px auto;
 
 }
+.thumbnail {
+    padding: 10px 30px;
+}
 #home {
     display: flex;
     flex-direction: column;
@@ -61,7 +64,7 @@ a {
 
 img.img-thumbnail {
     width: auto;
-    height: 30vh;
+    height: 25vh;
 
     display: flex;
     margin: 20px auto;

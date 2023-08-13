@@ -1,0 +1,22 @@
+<div class="container">
+  
+    <div class="row beer-page">
+      {{#each beers}} 
+   
+      <div class="col-lg-4 col-md-4 col-ls-4 col-xs-12 thumbnail">
+         <a href="/beers/{{id}}"> 
+        <img class="img-thumbnail" src="{{image_url}}" alt="{{name}}"/>
+        <h3>{{name}}</h3>
+        <h5>{{tagline}}</h5>
+        <p>{{description}}</p>
+        </a> 
+        </div>
+          
+        {{/each}} 
+      </div>
+      
+</div> 
+
+
+     
+ 

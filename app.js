@@ -55,4 +55,4 @@ app.get("/beers/:id" , (req,res)=>{
   
 })
 
-app.listen(3000, () => console.log('🏃‍ on port 3000'));
+app.listen(3001, () => console.log('🏃‍ on port 3000'));
